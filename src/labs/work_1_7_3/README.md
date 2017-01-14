@@ -83,7 +83,7 @@ public class Solution_1_7_3_Main {
 
     public static void updateList(List<String> list) {
         Converter converter = s -> {
-            if (Converter.isNull(s)) {
+            if (!Converter.isNull(s)) {
                 s = s.toUpperCase();
             }
             return s;
