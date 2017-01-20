@@ -159,6 +159,7 @@ public class Solution_1_7_4_Main {
         List<Person> militaryMans = listOfPersons()
                                       .stream()
                                       .filter((p) -> p.getAge() >= 18 &&
+                                                     p.getAge() <= 27 &&
                                                      p.getGender() == Person.Gender.MALE)
                                       .collect(Collectors.toList());
 
