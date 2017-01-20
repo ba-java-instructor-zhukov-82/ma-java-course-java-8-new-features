@@ -101,19 +101,19 @@ public class Person {
 public class Solution_1_7_4_Main {
 
     public static void main(String[] args) {
-        solution_1_7_2();
+        solution_1_7_4();
     }
 
-    private static void solution_1_7_2() {
+    private static void solution_1_7_4() {
 
-        solution_1_7_2_1();
-        solution_1_7_2_2();
-        solution_1_7_2_3();
+        solution_1_7_4_1();
+        solution_1_7_4_2();
+        solution_1_7_4_3();
     }
 
-    private static void solution_1_7_2_1() {
+    private static void solution_1_7_4_1() {
 
-        System.out.println("\n\t\tsolution_1_7_2_1\n");
+        System.out.println("\n\t\tsolution_1_7_4_1\n");
 
 
         /* create and output a list of integers using Stream
@@ -152,9 +152,9 @@ public class Solution_1_7_4_Main {
        select and print to the console all military men (from 18 to 27
        years old).  */
 
-    private static void solution_1_7_2_2() {
+    private static void solution_1_7_4_2() {
 
-        System.out.println("\n\n\t\tsolution_1_7_2_2\n");
+        System.out.println("\n\n\t\tsolution_1_7_4_2\n");
 
         List<Person> militaryMans = listOfPersons()
                                       .stream()
@@ -169,9 +169,9 @@ public class Solution_1_7_4_Main {
     /* Determine for list objects of Person type the average age of
        women with using Stream a collection of objects of type Person. */
 
-    private static void solution_1_7_2_3() {
+    private static void solution_1_7_4_3() {
 
-        System.out.println("\n\t\tsolution_1_7_2_3\n");
+        System.out.println("\n\t\tsolution_1_7_4_3\n");
 
         List<Person> womans = listOfPersons()
                                     .stream()
