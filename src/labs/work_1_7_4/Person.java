@@ -1,8 +1,5 @@
 package labs.work_1_7_4;
 
-import java.util.Arrays;
-import java.util.List;
-
 /* Create a class Person with private fields: name, age and gender,
    as well as getter and setter methods, and constructor, and
    overridden a toString() method. */
